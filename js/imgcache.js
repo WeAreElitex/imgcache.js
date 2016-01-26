@@ -669,7 +669,7 @@ var ImgCache = {
                 }
 
                 if (success_callback) {
-                  success_callback(entry.toURL());
+                  success_callback(entry);
                 }
             },
             function (error) {
